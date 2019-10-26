@@ -1,0 +1,87 @@
+
+html, body{
+    height: 100%;
+    background-color: lightblue;
+}
+
+ol, ul {
+    list-style: none;
+}
+header {
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    padding: 30px;
+    /* border: black solid 1px; */
+}
+
+#container {
+    /* border: 1px black solid; */
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#computer {
+    border-radius: 20px;
+    border-top: gray 6px double;
+    border-left: gray 6px double;
+    border-right: gray 6px double;;
+    padding: 40px 0px;
+}
+
+#result {
+    border: 5px orange dotted;
+    background-color: rgb(81, 70, 145);
+    border-radius: 50px;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;border-radius: 20px;
+    color: honeydew;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#player {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    border-bottom: 6px gray double;
+    border-left: 6px gray double;
+    border-right: 6px gray double;
+    border-radius: 20px;
+}
+
+ul {
+    /* border: 1px black solid; */
+    padding-top: 20px;
+    padding-bottom: 20px;;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+li {
+    display: inline-block; 
+    padding-left: 50px;
+    padding-right: -10px;
+}
+
+
+img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
